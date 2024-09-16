@@ -10,8 +10,18 @@ fun main(){
     imethsBankAcc.withdraw(3120.00)
 
     imethsBankAcc.displayTransactionHistory()
-    println("${imethsBankAcc.accountHolder}'s account " +
-            "balance is $${imethsBankAcc.balance}")
+    imethsBankAcc.acctBalance()
+
+
+    val sarahBankAcc = BankAccount("Sarah",0.0)
+
+    sarahBankAcc.deposit(100.00)
+    sarahBankAcc.withdraw(10.00)
+    sarahBankAcc.deposit(300.00)
+
+    sarahBankAcc.displayTransactionHistory()
+    sarahBankAcc.acctBalance()
+
 
 
 }
