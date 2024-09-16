@@ -10,6 +10,8 @@ fun main(){
     imethsBankAcc.withdraw(3120.00)
 
     imethsBankAcc.displayTransactionHistory()
+    println("${imethsBankAcc.accountHolder}'s account " +
+            "balance is $${imethsBankAcc.balance}")
 
 
 }
