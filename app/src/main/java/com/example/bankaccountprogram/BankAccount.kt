@@ -34,4 +34,9 @@ class BankAccount (
         }
 
     }
+
+    fun acctBalance(){
+        println("Available balance in ${accountHolder}'s account: $$balance")
+        println("-------------------------------------")
+    }
 }
